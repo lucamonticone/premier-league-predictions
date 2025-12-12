@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Premier League Simulation Dashboard</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,7 +23,9 @@
     <header class="app-header">
       <div class="app-header__left">
         <h1 class="app-title">Premier League Simulation</h1>
-        <p class="app-subtitle">Monte Carlo projections for the rest of the season</p>
+        <p class="app-subtitle">
+          Monte Carlo projections for the rest of the season
+        </p>
       </div>
 
       <div class="app-header__right">
@@ -41,17 +44,20 @@
           <label for="nsim-select">
             Simulations
             <select id="nsim-select">
+              <option value="1000">1,000</option>
               <option value="2000" selected>2,000</option>
+              <option value="5000">5,000</option>
             </select>
-
           </label>
         </div>
 
-        <button id="run-button" class="primary-button">
-          Update projections
+        <button class="primary-button" id="update-btn">
+          UPDATE<br />
+          PROJECTIONS
         </button>
       </div>
     </header>
+
 
     <main class="app-main">
       <section class="main-panel">

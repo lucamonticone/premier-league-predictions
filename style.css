@@ -60,9 +60,10 @@ body {
 
 .app-header__left {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  gap: 12px;
 }
+
 
 .app-title {
   font-size: 1.4rem;
@@ -516,4 +517,20 @@ body {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  .app-header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.app-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px; /* toglilo se non vuoi il logo tondo */
+  object-fit: contain;
+}
+
+
+
 }
