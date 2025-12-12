@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Premier League Simulation Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-root">
+    <header class="app-header">
+      <div class="app-header__left">
+        <h1 class="app-title">Premier League Simulation</h1>
+        <p class="app-subtitle">Monte Carlo projections for the rest of the season</p>
+      </div>
+
+      <div class="app-header__right">
+        <div class="control-group">
+          <label for="model-select">
+            Model
+            <select id="model-select">
+              <option value="poisson">Poisson goals</option>
+              <option value="skellam">Skellam goal diff</option>
+              <option value="student_t" selected>Student-t goal diff</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="control-group">
+          <label for="nsim-select">
+            Simulations
+            <select id="nsim-select">
+              <option value="2000" selected>2,000</option>
+            </select>
+
+          </label>
+        </div>
+
+        <button id="run-button" class="primary-button">
+          Update projections
+        </button>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="main-panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Expected final points</h2>
+          <p class="panel-subtitle">
+            Teams sorted by mean projected points. Error bars show 5th–95th percentile.
+          </p>
+        </div>
+
+        <div id="points-chart" class="chart-container"></div>
+
+        <div class="panel-header panel-header--secondary">
+          <div class="panel-header-main">
+            <h2 class="panel-title">Next matchweek predictions</h2>
+            <p class="panel-subtitle" id="fixtures-subtitle">
+              Win / draw / loss probabilities and expected goals for each fixture.
+            </p>
+          </div>
+
+        <div class="fixtures-model-toggle">
+          <button class="chip-button chip-button--active" data-model-toggle="poisson">
+            Poisson
+          </button>
+          <button class="chip-button" data-model-toggle="skellam">
+            Skellam
+          </button>
+          <button class="chip-button" data-model-toggle="student_t">
+            Student-t
+          </button>
+        </div>
+      </div>
+
+      <div id="fixtures-grid" class="fixtures-grid"></div>
+
+        
+      </section>
+
+      <aside class="detail-panel" id="detail-panel">
+        <div class="detail-placeholder" id="detail-placeholder">
+          <p>Select a team in the chart to see the full distribution of points and probabilities.</p>
+        </div>
+
+        <div class="detail-content hidden" id="detail-content">
+          <div class="detail-header">
+            <div class="team-badge" id="detail-team-badge"></div>
+            <div>
+              <h2 id="detail-team-name"></h2>
+              <p id="detail-team-subtitle" class="detail-team-subtitle"></p>
+            </div>
+          </div>
+
+          <div class="detail-section">
+            <h3>Points distribution</h3>
+            <div id="detail-points-chart" class="chart-container small-chart"></div>
+          </div>
+
+          <div class="detail-section">
+            <h3>Key probabilities</h3>
+            <table class="prob-table">
+              <tbody>
+                <tr>
+                  <td>Win the league</td>
+                  <td id="prob-champion"></td>
+                </tr>
+                <tr>
+                  <td>Finish in top 4</td>
+                  <td id="prob-top4"></td>
+                </tr>
+                <tr>
+                  <td>Finish in top 6</td>
+                  <td id="prob-top6"></td>
+                </tr>
+                <tr>
+                  <td>Relegation</td>
+                  <td id="prob-relegation"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="detail-section">
+            <h3>Points & position</h3>
+            <ul class="summary-list">
+              <li><span>Mean points</span> <span id="summary-mean-points"></span></li>
+              <li><span>5–95% range</span> <span id="summary-range-points"></span></li>
+              <li><span>Most likely finish</span> <span id="summary-most-likely-rank"></span></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <div class="app-footer">
+      <span>
+        Data:
+        <a href="https://www.football-data.org/coverage" target="_blank" rel="noopener noreferrer">
+          Premier League
+        </a>
+        match results. Models: Bayesian Poisson / Skellam / Student-t, simulated in Python.
+      </span>
+
+      <span>
+        Built as a portfolio project – code on
+        <a href="https://github.com/lucamonticone" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </span>
+</div>
+
+</body>
+</html>

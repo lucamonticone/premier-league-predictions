@@ -1,0 +1,162 @@
+[
+  {
+    "team_id": "ARS",
+    "name": "Arsenal",
+    "short_name": "ARS",
+    "logo": "images/Arsenal.png",
+    "primary_color": "#EF0107",
+    "secondary_color": "#063672"
+  },
+  {
+    "team_id": "AVL",
+    "name": "Aston Villa",
+    "short_name": "AVL",
+    "logo": "images/Aston_Villa_FC.png",
+    "primary_color": "#670E36",
+    "secondary_color": "#95BFE5"
+  },
+  {
+    "team_id": "BOU",
+    "name": "AFC_Bournemouth",
+    "short_name": "BOU",
+    "logo": "images/AFC_Bournemouth.png",
+    "primary_color": "#DA291C",
+    "secondary_color": "#000000"
+  },
+  {
+    "team_id": "BRE",
+    "name": "Brentford",
+    "short_name": "BRE",
+    "logo": "images/Brentford_FC.png",
+    "primary_color": "#E30613",
+    "secondary_color": "#F5F5F5"
+  },
+  {
+    "team_id": "BHA",
+    "name": "Brighton",
+    "short_name": "BHA",
+    "logo": "images/Brighton_&_Hove_Albion.png",
+    "primary_color": "#0057B8",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "team_id": "BUR",
+    "name": "Burnley",
+    "short_name": "BUR",
+    "logo": "images/Burnley.png",
+    "primary_color": "#6C1D45",
+    "secondary_color": "#99D6EA"
+  },
+  {
+    "team_id": "CHE",
+    "name": "Chelsea",
+    "short_name": "CHE",
+    "logo": "images/Chelsea.png",
+    "primary_color": "#034694",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "team_id": "CRY",
+    "name": "Crystal Palace",
+    "short_name": "CRY",
+    "logo": "images/Crystal_Palace_F.C.png",
+    "primary_color": "#1B458F",
+    "secondary_color": "#C4122E"
+  },
+  {
+    "team_id": "EVE",
+    "name": "Everton",
+    "short_name": "EVE",
+    "logo": "images/Everton.png",
+    "primary_color": "#003399",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "team_id": "FUL",
+    "name": "Fulham",
+    "short_name": "FUL",
+    "logo": "images/Fulham_FC.png",
+    "primary_color": "#FFFFFF",
+    "secondary_color": "#000000"
+  },
+  {
+    "team_id": "LEE",
+    "name": "Leeds",
+    "short_name": "LEE",
+    "logo": "images/Leeds_United_FC.png",
+    "primary_color": "#FFCD00",
+    "secondary_color": "#1D428A"
+  },
+  {
+    "team_id": "LIV",
+    "name": "Liverpool",
+    "short_name": "LIV",
+    "logo": "images/Liverpool.png",
+    "primary_color": "#FF3131",
+    "secondary_color": "#00B2A9"
+  },
+  {
+    "team_id": "MCI",
+    "name": "Man City",
+    "short_name": "MCI",
+    "logo": "images/Manchester_City.png",
+    "primary_color": "#6CABDD",
+    "secondary_color": "#1C2C5B"
+  },
+  {
+    "team_id": "MUN",
+    "name": "Manchester_United",
+    "short_name": "MUN",
+    "logo": "images/Manchester_United.png",
+    "primary_color": "#DA291C",
+    "secondary_color": "#FBE122"
+  },
+  {
+    "team_id": "NEW",
+    "name": "Newcastle",
+    "short_name": "NEW",
+    "logo": "images/Newcastle_United.png",
+    "primary_color": "#241F20",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "team_id": "NFO",
+    "name": "Nott'm Forest",
+    "short_name": "NFO",
+    "logo": "images/Nottingham_Forest.png",
+    "primary_color": "#E53233",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "team_id": "SUN",
+    "name": "Sunderland",
+    "short_name": "SUN",
+    "logo": "images/Sunderland.png",
+    "primary_color": "#EB172B",
+    "secondary_color": "#000000"
+  },
+  {
+    "team_id": "TOT",
+    "name": "Tottenham",
+    "short_name": "TOT",
+    "logo": "images/Tottenham_Hotspur.png",
+    "primary_color": "#FFFFFF",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "team_id": "WHU",
+    "name": "West Ham",
+    "short_name": "WHU",
+    "logo": "images/West_Ham_United.png",
+    "primary_color": "#7A263A",
+    "secondary_color": "#1BB1E7"
+  },
+  {
+    "team_id": "WOL",
+    "name": "Wolves",
+    "short_name": "WOL",
+    "logo": "images/Wolverhampton_Wanderers.png",
+    "primary_color": "#FDB913",
+    "secondary_color": "#231F20"
+  }
+]

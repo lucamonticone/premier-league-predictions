@@ -1,0 +1,18 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambienti virtuali / file env locali
+.venv/
+venv/
+env/
+*.env
+footballAPI.env
+
+# IDE
+.vscode/
+.idea/
+
+# Notebook temporanei
+*.ipynb_checkpoints/
