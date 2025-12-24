@@ -1,98 +1,98 @@
 {
   "season": "2025-2026",
   "model": "skellam",
-  "matchweek": 17,
-  "last_update": "2025-12-18T12:14:36",
+  "matchweek": 18,
+  "last_update": "2025-12-24T12:12:25",
   "fixtures": [
     {
-      "home_team": "Bournemouth",
-      "away_team": "Burnley",
-      "p_home": 0.6952615392087339,
-      "p_draw": 0.16546653996620672,
-      "p_away": 0.13927192082505938,
-      "exp_home_goals": 2.2013576625371516,
-      "exp_away_goals": 0.8717071068408868
+      "home_team": "Man United",
+      "away_team": "Newcastle",
+      "p_home": 0.4109779294964975,
+      "p_draw": 0.2322325201439976,
+      "p_away": 0.35678955035950494,
+      "exp_home_goals": 1.3511001158109184,
+      "exp_away_goals": 1.2403304988779482
     },
     {
-      "home_team": "Brighton Hove",
-      "away_team": "Sunderland",
-      "p_home": 0.6208534515316393,
-      "p_draw": 0.20719734455797464,
-      "p_away": 0.17194920391038615,
-      "exp_home_goals": 1.7170051076422563,
-      "exp_away_goals": 0.7743233050857639
+      "home_team": "Arsenal",
+      "away_team": "Brighton Hove",
+      "p_home": 0.6688377917623275,
+      "p_draw": 0.18868862187146213,
+      "p_away": 0.1424735863662104,
+      "exp_home_goals": 1.8835976754340122,
+      "exp_away_goals": 0.7305955013476008
     },
     {
-      "home_team": "Everton",
-      "away_team": "Arsenal",
-      "p_home": 0.2979439516177763,
-      "p_draw": 0.2549834131467648,
-      "p_away": 0.44707263523545876,
-      "exp_home_goals": 0.9453154325456989,
-      "exp_away_goals": 1.2273495109494874
+      "home_team": "Brentford",
+      "away_team": "Bournemouth",
+      "p_home": 0.5280279828442248,
+      "p_draw": 0.21281860323375734,
+      "p_away": 0.2591534139220178,
+      "exp_home_goals": 1.6798840735223957,
+      "exp_away_goals": 1.1027194632469297
     },
     {
-      "home_team": "Leeds United",
-      "away_team": "Crystal Palace",
-      "p_home": 0.3642518830134871,
-      "p_draw": 0.24709022484932774,
-      "p_away": 0.3886578921371852,
-      "exp_home_goals": 1.146461899160654,
-      "exp_away_goals": 1.1940195114558436
+      "home_team": "Burnley",
+      "away_team": "Everton",
+      "p_home": 0.37576826461601426,
+      "p_draw": 0.24136359134983312,
+      "p_away": 0.38286814403415254,
+      "exp_home_goals": 1.210023653073337,
+      "exp_away_goals": 1.224109202797889
     },
     {
-      "home_team": "Man City",
-      "away_team": "West Ham",
-      "p_home": 0.7891875324460644,
-      "p_draw": 0.12808270193152557,
-      "p_away": 0.08272976562240995,
-      "exp_home_goals": 2.5607136996451754,
-      "exp_away_goals": 0.709390599028322
+      "home_team": "Chelsea",
+      "away_team": "Aston Villa",
+      "p_home": 0.5476482832722952,
+      "p_draw": 0.2267226055851608,
+      "p_away": 0.225629111142544,
+      "exp_home_goals": 1.533469095374757,
+      "exp_away_goals": 0.8823105841371849
     },
     {
-      "home_team": "Newcastle",
-      "away_team": "Chelsea",
-      "p_home": 0.45335270054249127,
-      "p_draw": 0.24225563652317755,
-      "p_away": 0.3043916629343311,
-      "exp_home_goals": 1.3296442542301024,
-      "exp_away_goals": 1.0365671978891273
+      "home_team": "Liverpool",
+      "away_team": "Wolverhampton",
+      "p_home": 0.7980888125646707,
+      "p_draw": 0.12489985634241534,
+      "p_away": 0.07701133109291404,
+      "exp_home_goals": 2.5736230178524075,
+      "exp_away_goals": 0.6758963921972065
     },
     {
-      "home_team": "Tottenham",
-      "away_team": "Liverpool",
-      "p_home": 0.35699720542830915,
-      "p_draw": 0.23390510197174305,
-      "p_away": 0.40909769259994777,
-      "exp_home_goals": 1.2284789838351244,
-      "exp_away_goals": 1.3344425309028465
+      "home_team": "Nottingham",
+      "away_team": "Man City",
+      "p_home": 0.351167991678431,
+      "p_draw": 0.2344320147320556,
+      "p_away": 0.41439999358951346,
+      "exp_home_goals": 1.2094580704942501,
+      "exp_away_goals": 1.3377027732822273
     },
     {
-      "home_team": "Wolverhampton",
-      "away_team": "Brentford",
-      "p_home": 0.3576841689516579,
-      "p_draw": 0.23301764488694288,
-      "p_away": 0.40929818616139924,
-      "exp_home_goals": 1.2372312433588375,
-      "exp_away_goals": 1.3425271101635452
+      "home_team": "West Ham",
+      "away_team": "Fulham",
+      "p_home": 0.4495694355857601,
+      "p_draw": 0.2231602852709415,
+      "p_away": 0.3272702791432984,
+      "exp_home_goals": 1.4979749085079352,
+      "exp_away_goals": 1.2407179809177373
     },
     {
-      "home_team": "Aston Villa",
-      "away_team": "Man United",
-      "p_home": 0.6583099578986022,
-      "p_draw": 0.18495463480750973,
-      "p_away": 0.15673540729388805,
-      "exp_home_goals": 1.9619023097439392,
-      "exp_away_goals": 0.8342689164422883
+      "home_team": "Crystal Palace",
+      "away_team": "Tottenham",
+      "p_home": 0.5749749947210903,
+      "p_draw": 0.22484093069455127,
+      "p_away": 0.2001840745843584,
+      "exp_home_goals": 1.5516333137216123,
+      "exp_away_goals": 0.7973809816837294
     },
     {
-      "home_team": "Fulham",
-      "away_team": "Nottingham",
-      "p_home": 0.49755904988348615,
-      "p_draw": 0.22384044126018532,
-      "p_away": 0.2786005088563286,
-      "exp_home_goals": 1.542038634376941,
-      "exp_away_goals": 1.086913221344663
+      "home_team": "Sunderland",
+      "away_team": "Leeds United",
+      "p_home": 0.5534893119374873,
+      "p_draw": 0.22553223681305842,
+      "p_away": 0.22097845124945434,
+      "exp_home_goals": 1.545805538395669,
+      "exp_away_goals": 0.8721047665345792
     }
   ]
 }
