@@ -179,36 +179,36 @@ season,date,matchweek,home_team,away_team,home_goals,away_goals,status
 2025-2026,2025-12-27,18,West Ham,Fulham,0.0,1.0,played
 2025-2026,2025-12-28,18,Crystal Palace,Tottenham,0.0,1.0,played
 2025-2026,2025-12-28,18,Sunderland,Leeds United,1.0,1.0,played
-2025-2026,2025-12-30,19,Arsenal,Aston Villa,,,scheduled
-2025-2026,2025-12-30,19,Burnley,Newcastle,,,scheduled
-2025-2026,2025-12-30,19,Chelsea,Bournemouth,,,scheduled
-2025-2026,2025-12-30,19,Man United,Wolverhampton,,,scheduled
-2025-2026,2025-12-30,19,Nottingham,Everton,,,scheduled
-2025-2026,2025-12-30,19,West Ham,Brighton Hove,,,scheduled
-2025-2026,2026-01-01,19,Brentford,Tottenham,,,scheduled
-2025-2026,2026-01-01,19,Crystal Palace,Fulham,,,scheduled
-2025-2026,2026-01-01,19,Liverpool,Leeds United,,,scheduled
-2025-2026,2026-01-01,19,Sunderland,Man City,,,scheduled
-2025-2026,2026-01-03,20,Aston Villa,Nottingham,,,scheduled
-2025-2026,2026-01-03,20,Bournemouth,Arsenal,,,scheduled
-2025-2026,2026-01-03,20,Brighton Hove,Burnley,,,scheduled
-2025-2026,2026-01-03,20,Wolverhampton,West Ham,,,scheduled
-2025-2026,2026-01-04,20,Everton,Brentford,,,scheduled
-2025-2026,2026-01-04,20,Fulham,Liverpool,,,scheduled
-2025-2026,2026-01-04,20,Leeds United,Man United,,,scheduled
-2025-2026,2026-01-04,20,Man City,Chelsea,,,scheduled
-2025-2026,2026-01-04,20,Newcastle,Crystal Palace,,,scheduled
-2025-2026,2026-01-04,20,Tottenham,Sunderland,,,scheduled
-2025-2026,2026-01-06,21,West Ham,Nottingham,,,scheduled
-2025-2026,2026-01-07,21,Bournemouth,Tottenham,,,scheduled
-2025-2026,2026-01-07,21,Brentford,Sunderland,,,scheduled
-2025-2026,2026-01-07,21,Burnley,Man United,,,scheduled
-2025-2026,2026-01-07,21,Crystal Palace,Aston Villa,,,scheduled
-2025-2026,2026-01-07,21,Everton,Wolverhampton,,,scheduled
-2025-2026,2026-01-07,21,Fulham,Chelsea,,,scheduled
-2025-2026,2026-01-07,21,Man City,Brighton Hove,,,scheduled
-2025-2026,2026-01-07,21,Newcastle,Leeds United,,,scheduled
-2025-2026,2026-01-08,21,Arsenal,Liverpool,,,scheduled
+2025-2026,2025-12-30,19,Arsenal,Aston Villa,4.0,1.0,played
+2025-2026,2025-12-30,19,Burnley,Newcastle,1.0,3.0,played
+2025-2026,2025-12-30,19,Chelsea,Bournemouth,2.0,2.0,played
+2025-2026,2025-12-30,19,Man United,Wolverhampton,1.0,1.0,played
+2025-2026,2025-12-30,19,Nottingham,Everton,0.0,2.0,played
+2025-2026,2025-12-30,19,West Ham,Brighton Hove,2.0,2.0,played
+2025-2026,2026-01-01,19,Brentford,Tottenham,0.0,0.0,played
+2025-2026,2026-01-01,19,Crystal Palace,Fulham,1.0,1.0,played
+2025-2026,2026-01-01,19,Liverpool,Leeds United,0.0,0.0,played
+2025-2026,2026-01-01,19,Sunderland,Man City,0.0,0.0,played
+2025-2026,2026-01-03,20,Aston Villa,Nottingham,3.0,1.0,played
+2025-2026,2026-01-03,20,Bournemouth,Arsenal,2.0,3.0,played
+2025-2026,2026-01-03,20,Brighton Hove,Burnley,2.0,0.0,played
+2025-2026,2026-01-03,20,Wolverhampton,West Ham,3.0,0.0,played
+2025-2026,2026-01-04,20,Everton,Brentford,2.0,4.0,played
+2025-2026,2026-01-04,20,Fulham,Liverpool,2.0,2.0,played
+2025-2026,2026-01-04,20,Leeds United,Man United,1.0,1.0,played
+2025-2026,2026-01-04,20,Man City,Chelsea,1.0,1.0,played
+2025-2026,2026-01-04,20,Newcastle,Crystal Palace,2.0,0.0,played
+2025-2026,2026-01-04,20,Tottenham,Sunderland,1.0,1.0,played
+2025-2026,2026-01-06,21,West Ham,Nottingham,1.0,2.0,played
+2025-2026,2026-01-07,21,Bournemouth,Tottenham,3.0,2.0,played
+2025-2026,2026-01-07,21,Brentford,Sunderland,3.0,0.0,played
+2025-2026,2026-01-07,21,Burnley,Man United,2.0,2.0,played
+2025-2026,2026-01-07,21,Crystal Palace,Aston Villa,0.0,0.0,played
+2025-2026,2026-01-07,21,Everton,Wolverhampton,1.0,1.0,played
+2025-2026,2026-01-07,21,Fulham,Chelsea,2.0,1.0,played
+2025-2026,2026-01-07,21,Man City,Brighton Hove,1.0,1.0,played
+2025-2026,2026-01-07,21,Newcastle,Leeds United,4.0,3.0,played
+2025-2026,2026-01-08,21,Arsenal,Liverpool,0.0,0.0,played
 2025-2026,2026-01-17,22,Chelsea,Brentford,,,scheduled
 2025-2026,2026-01-17,22,Leeds United,Fulham,,,scheduled
 2025-2026,2026-01-17,22,Liverpool,Burnley,,,scheduled
@@ -269,8 +269,6 @@ season,date,matchweek,home_team,away_team,home_goals,away_goals,status
 2025-2026,2026-02-22,27,Sunderland,Fulham,,,scheduled
 2025-2026,2026-02-22,27,Tottenham,Arsenal,,,scheduled
 2025-2026,2026-02-23,27,Everton,Man United,,,scheduled
-2025-2026,2026-02-01,28,Arsenal,Chelsea,,,scheduled
-2025-2026,2026-02-01,28,Fulham,Tottenham,,,scheduled
 2025-2026,2026-02-27,28,Wolverhampton,Aston Villa,,,scheduled
 2025-2026,2026-02-28,28,Bournemouth,Sunderland,,,scheduled
 2025-2026,2026-02-28,28,Brighton Hove,Nottingham,,,scheduled
@@ -279,6 +277,8 @@ season,date,matchweek,home_team,away_team,home_goals,away_goals,status
 2025-2026,2026-02-28,28,Liverpool,West Ham,,,scheduled
 2025-2026,2026-02-28,28,Man United,Crystal Palace,,,scheduled
 2025-2026,2026-02-28,28,Newcastle,Everton,,,scheduled
+2025-2026,2026-03-01,28,Arsenal,Chelsea,,,scheduled
+2025-2026,2026-03-01,28,Fulham,Tottenham,,,scheduled
 2025-2026,2026-03-04,29,Aston Villa,Chelsea,,,scheduled
 2025-2026,2026-03-04,29,Bournemouth,Brentford,,,scheduled
 2025-2026,2026-03-04,29,Brighton Hove,Arsenal,,,scheduled
